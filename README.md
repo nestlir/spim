@@ -1,47 +1,37 @@
-# Email-рассылка "Финальная распродажа этого лета"
+# Email Campaign — Summer Sale
 
-Профессиональный адаптивный HTML-шаблон для email-рассылки, созданный с учетом лучших практик и максимальной совместимости с популярными почтовыми клиентами.
+> Production-style responsive HTML email template designed around broad client compatibility.
 
-## Особенности
+## Overview
 
-- **Полная адаптивность** - корректное отображение на всех устройствах
-- **Кросс-платформенная совместимость** - поддержка Gmail, Outlook, Yahoo, Apple Mail и других
-- **Современный дизайн** - привлекательный баннер с продуманной типографикой
-- **Оптимизированная производительность** - быстрая загрузка и отображение
-- **Простая кастомизация** - легкая замена контента и изображений
+A responsive promotional email built with the constraints of real email clients in mind. The implementation prioritizes compatibility, predictable rendering and editable content over browser-only CSS techniques.
 
-## Технологии
+## What I demonstrated
 
-- **HTML5** - семантическая разметка
-- **CSS3** - инлайновые стили для email-клиентов
-- **Табличная верстка** - максимальная совместимость
-- **VML** - поддержка Outlook
-- **Адаптивный дизайн** - мобильные устройства и десктоп
+- semantic HTML email structure;
+- table-based layout for client compatibility;
+- inline CSS;
+- responsive behavior;
+- Outlook support through VML where required;
+- typography and visual hierarchy;
+- content areas designed for easy customization.
 
-## Структура проекта
-spim/
-├── index.html # Основной HTML файл шаблона
-├── images/ # Папка с изображениями
+## Compatibility focus
 
+The template targets major clients including Gmail, Outlook, Yahoo Mail and Apple Mail. The implementation uses established email-development techniques rather than assuming full browser CSS support.
 
-## Быстрый старт
+## Stack
 
-### 1. Клонирование репозитория
+**HTML5 · inline CSS · email tables · VML · responsive email design**
 
-```bash
-git clone https://github.com/your-username/email-summer-sale.git
-cd email-summer-sale
+## Customization
 
+Replace the promotional content, discount values and contact information in `index.html`. Images are stored in `images/`.
 
-2. Настройка контента
-Замените следующие элементы в index.html:
-<!-- Промокод -->
-<span class="promo-code">YOUR_PROMO_CODE</span>
+## Run locally
 
-<!-- Временные скидки -->
-<p class="discount-time">до 19:00</p>
+Open `index.html` in a browser or use a local static server. For reliable email QA, render the template in the target mail clients or a dedicated email-testing environment.
 
-<!-- Контактные данные -->
-<a href="tel:88005556055">8 800 555 60 55</a>
-<a href="mailto:your-email@domain.com">your-email@domain.com</a># spim
-# spim
+## Context
+
+Presented as a frontend/email-engineering case study demonstrating responsive communication design and cross-client compatibility.
